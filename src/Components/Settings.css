@@ -1,0 +1,163 @@
+
+.plain-navbar{
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #141414;
+    z-index: 1;
+}
+.plain-navbar-left-icon img{
+    width: 90px;
+    height: 30px;
+    object-fit: contain;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.plain-navbar-right-icon img{
+    position: relative;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin-right: -40px;
+    border-radius: 3px;
+}
+.plain-navbar-right-icon img:hover{
+    transform: scale(1.10);
+    opacity: 1;
+}
+.opened{
+    list-style-type:none;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    background-color: #141414cd;
+    color: white;
+
+}
+.opened li{
+    padding: 8px;
+    width: 100px;
+    /* background-color: #141414; */
+    text-align: center;
+    border-bottom: 0.3px solid rgb(40, 39, 39);
+}
+.opened li a{
+    text-decoration: none;
+    color: white;
+}
+
+.closed{
+    list-style-type:none;
+    position: relative;
+    top: 80px;
+    right: 30px;
+    background-color: #1414143e;
+    color: white;
+    visibility: hidden;
+
+}
+.closed li{
+    padding: 8px;
+    width: 100px;
+    /* background-color: #141414; */
+    text-align: center;
+    border-bottom: 0.3px solid rgb(40, 39, 39);
+}
+.closed li a{
+    text-decoration: none;
+    color: white;
+}
+.settings-container{
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 100px;
+}
+.user-icon{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    color: rgb(184, 71, 71);
+}
+
+@media only screen and (max-width: 1100px) {
+    .settings-container{
+        margin: 0px 50px; 
+        display: flex;
+        flex-direction: column;
+    }
+    .warning-logo{
+        display: none;
+    }
+    .user-descriptions{
+        display: block;
+    }
+    .user-billing-info{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
+.verification{
+    margin-top: 15px;
+    background-color: rgb(247,224,181);
+    color: black;
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+}
+
+
+.warning-logo{
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.user-descriptions{
+    position: relative;
+    color: grey;
+    font-size: 14px;
+    display: inline;
+}
+.user-billing-info{
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.cancel-membership-btn{
+    padding: 8px 35px;
+    font-size: 15px;
+    margin-top: 10px;
+    border: rgb(65, 65, 65);
+    font-weight: 100;
+    background-image: linear-gradient(180deg, rgb(210, 205, 205), rgba(105, 105, 104, 0.681));
+}
+
+
+.user-detail-section p{
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.user-detail-section h4{
+    display: inline;
+    margin-left: 10px;
+    
+}
+.change-settings p{
+    margin: 10px;
+    font-size: 18px;
+    
+}
+.change-settings p a{
+    color: blue;
+}
+.my-list-wrapper{
+    background-color: #141414;
+}

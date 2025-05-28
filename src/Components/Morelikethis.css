@@ -1,0 +1,47 @@
+.like-this-container{
+    background-color:rgb(16, 16, 16);
+    margin-top: 150px;
+    color: white;
+}
+.rail-detail{
+    background-color:rgb(16, 16, 16);
+}
+
+.movie-rail-card{
+    display:flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+.movie-rail-card:hover{
+    transform: scale(1.10);
+    opacity: 1;
+}
+
+.movie-rail-card img{
+    width: 100%;
+    width: 250px;
+    object-fit:contain;
+    border-radius: 5px;
+    border: 0.3px solid white;
+}
+.movie-rail-card p{
+    font-size: 14px;
+    margin: 8px;
+}
+
+.rail-detail{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 14px;
+    margin-top: 12px;
+    transition: transform 450ms;
+}
+.like-this-container h3{
+    margin-left: 20px;
+}
+.rail-detail::-webkit-scrollbar {
+    display: none;
+}

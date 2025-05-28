@@ -1,0 +1,188 @@
+
+.header-bg1{
+    /* width: 100%; */
+    position: relative;
+    height: 432px;
+    object-fit: cover;
+    color: white;
+    transition: 0.3 ease-in;
+    /* overflow-x: hidden; */
+
+    
+}
+.banner-content1{
+    padding-top: 140px;
+    margin-left: 60px;
+}
+.play-btn1{
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 110px;
+    height: 35px;
+    background-color: rgba(133, 132, 132, 0.263);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.my-list-btn1{
+    width: 35px;
+    margin-top: 8px;
+    background-color: rgba(133, 132, 132, 0.263);
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+}
+.like-btn1{
+    width: 35px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: rgba(133, 132, 132, 0.263);
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+}
+.banner-para1{
+    width: 380px;
+}
+.banner-blur1{
+    height: 6.0rem;
+    background-image: linear-gradient(180deg,transparent,rgba(51, 50, 50, 0.61));
+    
+}
+.banner-para1{
+    margin-top: 8px;
+    height: 100px;
+}
+.play-btn1:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3;
+    transform: scale(1.10);
+    opacity: 1;
+}
+.my-list-btn1:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3;
+    transform: scale(1.10);
+    opacity: 1;
+}
+
+.like-btn1:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3;
+    transform: scale(1.10);
+    opacity: 1;
+}
+.movie-details{
+    color: white;
+    background-color:rgb(16, 16, 16);
+    display: flex;
+    justify-content: space-between;
+    max-height: max-content;
+
+    }
+.lan{
+    color: white;
+    display: flex;
+    margin-top: 10px;
+}
+.left{
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 800px;
+    font-size: 14px;
+}
+.right{
+    margin-right: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.genre{
+    display: flex;
+    flex-direction: row;
+}
+.overview{
+    margin-top: 20px;
+    font-weight: lighter;
+    height: 90px;
+}
+@media screen and (max-width: 700px) {
+    .overview{
+        width: 100%;
+      min-width:220px ;
+      padding-left: 60px;
+      overflow-y: hidden;
+    }
+}
+.icons{
+    display: flex;
+    gap: 10px;
+   
+}
+.rating{
+    display: flex;
+    text-align: start;
+}
+p.IMDB-RED{
+    color: red;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.IMDB-GREEN{
+    color: green;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.IMDb-RATING{
+    width:60px;
+}
+p.box{
+    max-width:50px ;
+    text-align: center;
+    color: gold;
+}
+p.run{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.left{
+    gap: 15px;
+}
+.yearr{
+    font-size: 14px;
+}
+
+.closing-btn{
+    font-size: 18px;
+    width: 40px;
+    margin-top: 8px;
+    background-color: rgba(133, 132, 132, 0.263);
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+}
+.closing-btn:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3;
+    transform: scale(1.10);
+    opacity: 1;
+}
+.close1{
+    margin-top: 8px;
+    float: right;
+    margin-right: 15px;
+}
+.close1::-webkit-scrollbar {
+    display: none;
+}

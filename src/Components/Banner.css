@@ -1,0 +1,71 @@
+
+
+
+.header-bg{
+    /* width: 100%; */
+    position: relative;
+    height: 550px;
+    object-fit: cover;
+    color: white;
+    transition: 0.3 ease-in;
+    object-fit: contain;
+}
+.banner-content{
+    padding-top: 180px;
+    margin-left: 60px;
+}
+.play-btn{
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 100px;
+    height: 28px;
+    background-color: rgba(133, 132, 132, 0.263);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.myListBtn.Hide{
+    width: 100px;
+    margin-top: 8px;
+    background-color: rgba(133, 132, 132, 0.263);
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.myListBtn.Show{
+        width: 100px;
+        margin-top: 8px;
+        background-color: rgb(255, 255, 255);
+        height: 28px;
+        border: none;
+        border-radius: 3px;
+        color: rgb(0, 0, 0);
+}
+
+.banner-para{
+    width: 380px;
+}
+.banner-blur{
+    height: 11.7rem;
+    background-image: linear-gradient(180deg,transparent,rgba(51, 50, 50, 0.61));
+}
+.banner-para{
+    margin-top: 8px;
+    height: 100px;
+}
+.play-btn:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3;
+    transform: scale(1.10);
+    opacity: 1;
+}
+.my-list-btn:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3;
+    transform: scale(1.10);
+    opacity: 1;
+}

@@ -1,0 +1,133 @@
+.login-page {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-icon img {
+    position: fixed;
+    width: 90px;
+    height: 30px;
+    object-fit: contain;
+    padding-left: 10px;
+}
+
+.right-btn button {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    padding: 5px 16px;
+    color: white;
+    background-color: #e50914;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-in-container {
+    position: absolute;
+    color: #fff;
+    top: 150px;
+    right: 100px !important;
+    padding: 30px 20px;
+    text-align: center;
+    width: 22rem;
+    height: 22rem;
+    background-color: rgba(0, 0, 0, 0.638);
+    z-index: 100;
+}
+
+.sign-in-container input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    font-size: 18px;
+}
+
+.text1 h1 {
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+.avatar {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.avatar p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.avatar:hover {
+    transform: scale(1.10);
+    opacity: 1;
+}
+
+.sign-in-btn :hover {
+    transform: scale(1.10);
+    opacity: 1;
+}
+
+.username-login {
+    width: 250px;
+}
+
+.password-login {
+    width: 250px;
+}
+
+.login-btn {
+    width: 270px;
+}
+
+.signIn {
+    margin-left: -155px;
+}
+
+.sign-in-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 35px;
+}
+
+.remember-me {
+    font-size: 14px;
+}
+
+.need-help {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.container-blur {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #17171748;
+}
