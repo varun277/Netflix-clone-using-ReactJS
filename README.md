@@ -1,32 +1,32 @@
 # Netflix Clone - Movie Streaming UI
 
 A responsive web application that recreates the Netflix user experience using modern web technologies and The Movie Database (TMDB) API integration.
-# Key Features
-# Dynamic Content Display
+## Key Features
+## Dynamic Content Display
 
 Home page featuring a prominent banner showcasing featured movies
 Organized movie rails categorized by genres (Action, Comedy, Drama, etc.)
 Real-time movie data fetched from TMDB API for up-to-date content
 
-# User Interface & Navigation
+## User Interface & Navigation
 
 Netflix-inspired design with dark theme and smooth scrolling
 Intuitive movie browsing experience with genre-based organization
 Detailed movie pages displaying comprehensive information including cast, ratings, and synopsis
 
-# User Management
+## User Management
 
 Interactive login page with form validation
 Static settings page for user preferences
 Local storage implementation for maintaining user session data
 
-# Technical Implementation
+## Technical Implementation
 
 RESTful API integration with TMDB for movie data
 Responsive design ensuring compatibility across devices
 Component-based architecture for maintainable code structure
 
-# Technologies Used
+## Technologies Used
 
 Frontend framework/vanilla JavaScript
 TMDB API for movie database
